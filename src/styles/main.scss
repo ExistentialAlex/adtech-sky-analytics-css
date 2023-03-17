@@ -1,1 +1,38 @@
 @import 'reset';
+@import 'variables';
+@import 'composition';
+@import 'utilities';
+@import 'blocks';
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 100%;
+}
+
+h1 {
+  font-size: var(--size-xxxl);
+}
+
+h2 {
+  font-size: var(--size-xxl);
+}
+
+h3 {
+  font-size: var(--size-xl);
+}
+
+h4 {
+  font-size: var(--size-l);
+}
+
+h5 {
+  font-size: var(--size-ml);
+}
+
+h6 {
+  font-size: var(--size-m);
+}
