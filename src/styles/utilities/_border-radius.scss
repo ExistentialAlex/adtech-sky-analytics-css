@@ -1,0 +1,20 @@
+.br {
+  &-xs {
+    border-radius: var(--border-radius-xs);
+  }
+  &-s {
+    border-radius: var(--border-radius-s);
+  }
+  &-m {
+    border-radius: var(--border-radius-m);
+  }
+  &-l {
+    border-radius: var(--border-radius-l);
+  }
+  &-xl {
+    border-radius: var(--border-radius-xl);
+  }
+  &-round {
+    border-radius: var(--border-radius-round);
+  }
+}
