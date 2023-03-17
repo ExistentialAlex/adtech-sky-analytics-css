@@ -1,0 +1,13 @@
+.adt-card {
+  background-color: var(--base-01);
+  box-shadow: var(--box-shadow-03);
+  transition: box-shadow ease var(--time-slow);
+
+  &[data-hover='5']:hover {
+    box-shadow: var(--box-shadow-05);
+  }
+  
+  &[data-hover='7']:hover {
+    box-shadow: var(--box-shadow-07);
+  }
+}
