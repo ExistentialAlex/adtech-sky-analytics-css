@@ -1,20 +1,20 @@
-.br {
+.adt-br {
   &-xs {
-    border-radius: var(--border-radius-xs);
+    border-radius: var(--adt-border-radius-xs);
   }
   &-s {
-    border-radius: var(--border-radius-s);
+    border-radius: var(--adt-border-radius-s);
   }
   &-m {
-    border-radius: var(--border-radius-m);
+    border-radius: var(--adt-border-radius-m);
   }
   &-l {
-    border-radius: var(--border-radius-l);
+    border-radius: var(--adt-border-radius-l);
   }
   &-xl {
-    border-radius: var(--border-radius-xl);
+    border-radius: var(--adt-border-radius-xl);
   }
   &-round {
-    border-radius: var(--border-radius-round);
+    border-radius: var(--adt-border-radius-round);
   }
 }

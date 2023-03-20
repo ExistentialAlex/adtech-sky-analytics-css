@@ -1,13 +1,13 @@
 .adt-card {
-  background-color: var(--base-01);
-  box-shadow: var(--box-shadow-03);
-  transition: box-shadow ease var(--time-slow);
+  background-color: var(--adt-base-01);
+  box-shadow: var(--adt-box-shadow-03);
+  transition: box-shadow ease var(--adt-time-slow);
 
   &[data-hover='5']:hover {
-    box-shadow: var(--box-shadow-05);
+    box-shadow: var(--adt-box-shadow-05);
   }
   
   &[data-hover='7']:hover {
-    box-shadow: var(--box-shadow-07);
+    box-shadow: var(--adt-box-shadow-07);
   }
 }
