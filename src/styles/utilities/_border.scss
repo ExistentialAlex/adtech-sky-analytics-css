@@ -1,0 +1,110 @@
+.adt-border,
+.adt-bdr {
+  border-width: var(--adt-border-m);
+  border-color: var(--adt-neutral-bg);
+  border-style: solid;
+
+  &[data-border-width='xs'] {
+    border-width: var(--adt-border-xs);
+  }
+
+  &[data-border-width='s'] {
+    border-width: var(--adt-border-s);
+  }
+
+  &[data-border-width='m'] {
+    border-width: var(--adt-border-m);
+  }
+
+  &[data-border-width='l'] {
+    border-width: var(--adt-border-l);
+  }
+
+  &[data-border-width='xl'] {
+    border-width: var(--adt-border-xl);
+  }
+
+  &[data-appearance='primary'] {
+    border-color: var(--adt-primary);
+
+    &:hover {
+      border-color: var(--adt-primary-hover);
+    }
+  }
+
+  &[data-appearance='secondary'] {
+    border-color: var(--adt-secondary);
+
+    &:hover {
+      border-color: var(--adt-secondary-hover);
+    }
+  }
+
+  &[data-appearance='accent'] {
+    border-color: var(--adt-accent);
+
+    &:hover {
+      border-color: var(--adt-accent-hover);
+    }
+  }
+
+  &[data-appearance='success'] {
+    border-color: var(--adt-success-bg);
+
+    &:hover {
+      border-color: var(--adt-success-bg-hover);
+    }
+  }
+
+  &[data-appearance='error'] {
+    border-color: var(--adt-error-bg);
+
+    &:hover {
+      border-color: var(--adt-error-bg-hover);
+    }
+  }
+
+  &[data-appearance='positive'] {
+    border-color: var(--adt-positive);
+
+    &:hover {
+      border-color: var(--adt-positive-hover);
+    }
+  }
+
+  &[data-appearance='negative'] {
+    border-color: var(--adt-negative);
+
+    &:hover {
+      border-color: var(--adt-negative-hover);
+    }
+  }
+
+  &[data-appearance='warning'] {
+    border-color: var(--adt-warning-bg);
+
+    &:hover {
+      border-color: var(--adt-warning-bg-hover);
+    }
+  }
+
+  &[data-appearance='info'] {
+    border-color: var(--adt-info-bg);
+
+    &:hover {
+      border-color: var(--adt-info-bg-hover);
+    }
+  }
+
+  &[data-appearance='neutral'] {
+    border-color: var(--adt-neutral-bg);
+
+    &:hover {
+      border-color: var(--adt-neutral-bg-hover);
+    }
+  }
+
+  &:focus {
+    border-color: var(--adt-focus);
+  }
+}
