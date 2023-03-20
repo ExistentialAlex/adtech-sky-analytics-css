@@ -6,17 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sky Analytics CSS</title>
     <link rel="stylesheet" href="./dist/main.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
   </head>
-  <body class="p-7">
-    <div class="[ adt-card ] [ flow ] [ p-5 br-m bs-03 ]" data-hover="7">
-      <h2>Headings</h2>
-      <hr />
-      <h1>My h1 text!</h1>
-      <h2>My h2 text!</h2>
-      <h3>My h3 text!</h3>
-      <h4>My h4 text!</h4>
-      <h5>My h5 text!</h5>
-      <h6>My h6 text!</h6>
-    </div>
+  <body>
+    <nav
+      class="[ adt-flex ] [ adt-p-4 adt-p-x-6 adt-bs ]"
+      data-justify="between"
+    >
+      <h1>AdTech Sky Analytics CSS</h1>
+      <a
+        href="https://github.com/ExistentialAlex/adtech-sky-analytics-css"
+        class="[ adt-flex ]"
+        data-align="center"
+        ><i data-feather="github"></i
+      ></a>
+    </nav>
+    <article class="adt-p-7">
+      <div
+        class="[ adt-card ] [ adt-flow ] [ adt-p-5 adt-br-m adt-bs ]"
+        data-elevation="03"
+        data-hover="7"
+        data-appearance="primary"
+      >
+        <h2>Headings</h2>
+        <hr />
+        <h1>My h1 text!</h1>
+        <h2>My h2 text!</h2>
+        <h3>My h3 text!</h3>
+        <h4>My h4 text!</h4>
+        <h5>My h5 text!</h5>
+        <h6>My h6 text!</h6>
+      </div>
+    </article>
+
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>
