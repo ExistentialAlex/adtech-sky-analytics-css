@@ -2,207 +2,207 @@
 ::before,
 ::after {
   /* Colours */
-  --primary: #526ed3; // Background of buttons, marker icons
-  --primary-hover: #6c86e2; // Hovered state background of buttons, marker icons
-  --primary-active: #314692; // Active state background of buttons
+  --adt-primary: #526ed3; // Background of buttons, marker icons
+  --adt-primary-hover: #6c86e2; // Hovered state background of buttons, marker icons
+  --adt-primary-active: #314692; // Active state background of buttons
 
-  --secondary: #ebefff; // Background of input field and secondary buttons
-  --secondary-hover: #dfe3f3; // Hovered state background of input field and secondary buttons
-  --secondary-active: #d8ddf2; // Active state background of input field and secondary buttons
+  --adt-secondary: #ebefff; // Background of input field and secondary buttons
+  --adt-secondary-hover: #dfe3f3; // Hovered state background of input field and secondary buttons
+  --adt-secondary-active: #d8ddf2; // Active state background of input field and secondary buttons
 
-  --accent: #ff7043; // Background of accent icons or buttons
-  --accent-hover: #ff9a94; // Hovered state background of accent icons or buttons
-  --accent-active: #e7716a; // Active state background of accent icons or buttons
+  --adt-accent: #ff7043; // Background of accent icons or buttons
+  --adt-accent-hover: #ff9a94; // Hovered state background of accent icons or buttons
+  --adt-accent-active: #e7716a; // Active state background of accent icons or buttons
 
-  --selection: rgba(112, 182, 246, .12); // Selected text highlight color
-  --focus: rgba(51, 51, 51, .64); // Focused element border color
+  --adt-selection: rgba(112, 182, 246, .12); // Selected text highlight color
+  --adt-focus: rgba(51, 51, 51, .64); // Focused element border color
 
-  --clear: rgba(0, 0, 0, .04); // Filling color of interface elements on colored background: tages, badges, buttons
-  --clear-hover: rgba(0, 0, 0, .16); // Hovered state of filling color of interface elements on colored background
-  --clear-active: rgba(0, 0, 0, .2); // Active state of filling color of interface elements on colored background
-  --clear-inverse: rgba(255, 255, 255, .16); // Filling color of interface elements on dark background: tages, badges, buttons
-  --clear-inverse-hover: rgba(255, 255, 255, .24); // Hovered state of filling color of interface elements on dark background
-  --clear-inverse-active: rgba(255, 255, 255, .4); // Active state of filling color of interface elements on dark background
+  --adt-clear: rgba(0, 0, 0, .04); // Filling color of interface elements on colored background: tages, badges, buttons
+  --adt-clear-hover: rgba(0, 0, 0, .16); // Hovered state of filling color of interface elements on colored background
+  --adt-clear-active: rgba(0, 0, 0, .2); // Active state of filling color of interface elements on colored background
+  --adt-clear-inverse: rgba(255, 255, 255, .16); // Filling color of interface elements on dark background: tages, badges, buttons
+  --adt-clear-inverse-hover: rgba(255, 255, 255, .24); // Hovered state of filling color of interface elements on dark background
+  --adt-clear-inverse-active: rgba(255, 255, 255, .4); // Active state of filling color of interface elements on dark background
 
-  /* White to black color gradient */
-  --base-01: #fff;  // Page primary background and icon fill for color inverted background
-  --base-02: #f6f6f6; // Page secondary background, tile on primary background and background of static marker icons
-  --base-03: #ededed; // Page secondary background, tile on primary background and background of static marker icons
-  --base-04: #d7d7d7; // Hovered island border or other interactive blocks
-  --base-05: #b0b0b0; // Interface icons color
-  --base-06: #959595; // Hovered color for interactive interface icons with --base-05
-  --base-07: #808080; // For blocks with inverted background color
-  --base-08: #333; // Alternative interface icons color
-  --base-09: #000; // Icons color over inverted background
+  /* Light to dark color gradient */
+  --adt-base-01: #fff;  // Page primary background and icon fill for color inverted background
+  --adt-base-02: #f6f6f6; // Page secondary background, tile on primary background and background of static marker icons
+  --adt-base-03: #ededed; // Page secondary background, tile on primary background and background of static marker icons
+  --adt-base-04: #d7d7d7; // Hovered island border or other interactive blocks
+  --adt-base-05: #b0b0b0; // Interface icons color
+  --adt-base-06: #959595; // Hovered color for interactive interface icons with --adt-base-05
+  --adt-base-07: #808080; // For blocks with inverted background color
+  --adt-base-08: #333; // Alternative interface icons color
+  --adt-base-09: #000; // Icons color over inverted background
 
   /* Text */
-  --text-01: #1b1f3b; // Primary text and headings
-  --text-02: rgba(27, 31, 59, 0.65); // Secondary text and descriptions
-  --text-03: rgba(27, 31, 59, 0.4); // Inactive and additional points, minor information and helpers
+  --adt-text-01: #1b1f3b; // Primary text and headings
+  --adt-text-02: rgba(27, 31, 59, 0.65); // Secondary text and descriptions
+  --adt-text-03: rgba(27, 31, 59, 0.4); // Inactive and additional points, minor information and helpers
 
-  --text-01-night: #ffffff; // Primary text and headings
-  --text-02-night: rgba(255, 255, 255, 0.72); // Secondary text and descriptions
-  --text-03-night: rgba(255, 255, 255, 0.6); // Inactive and additional points, minor information and helpers
+  --adt-text-01-night: #ffffff; // Primary text and headings
+  --adt-text-02-night: rgba(255, 255, 255, 0.72); // Secondary text and descriptions
+  --adt-text-03-night: rgba(255, 255, 255, 0.6); // Inactive and additional points, minor information and helpers
 
-  --link: #526ed3; // Link and secondary buttons text
-  --link-hover: #6c86e2; // Hovered state of link and secondary buttons text
-  --link-night: #6788ff; // Link and secondary buttons text
-  --link-night-hover: #526ed3; // Hovered state of link and secondary buttons text
+  --adt-link: #526ed3; // Link and secondary buttons text
+  --adt-link-hover: #6c86e2; // Hovered state of link and secondary buttons text
+  --adt-link-night: #6788ff; // Link and secondary buttons text
+  --adt-link-night-hover: #526ed3; // Hovered state of link and secondary buttons text
 
   /* Numeric Colors */
-  --positive: #3aa981; // Positive values: income, stock price grow, etc.
-  --positive-hover: #7ac5aa; // Hovered state of positive values: income, stock price grow, etc.
-  --positive-night: #44c596; // Positive values: income, stock price grow, etc.
-  --positive-night-hover: #3aa981; // Hovered state of positive values: income, stock price grow, etc.
+  --adt-positive: #3aa981; // Positive values: income, stock price grow, etc.
+  --adt-positive-hover: #7ac5aa; // Hovered state of positive values: income, stock price grow, etc.
+  --adt-positive-night: #44c596; // Positive values: income, stock price grow, etc.
+  --adt-positive-night-hover: #3aa981; // Hovered state of positive values: income, stock price grow, etc.
 
-  --negative: #dd4c1e; // Negative values: expense, stock price fall, etc.
-  --negative-hover: #e38163; // Hovered state of negative values: expense, stock price fall, etc.
-  --negative-night: #ff8c67; // Negative values: expense, stock price fall, etc.
-  --negative-night-hover: #bb593a; // Hovered state of negative values: expense, stock price fall, etc.
+  --adt-negative: #dd4c1e; // Negative values: expense, stock price fall, etc.
+  --adt-negative-hover: #e38163; // Hovered state of negative values: expense, stock price fall, etc.
+  --adt-negative-night: #ff8c67; // Negative values: expense, stock price fall, etc.
+  --adt-negative-night-hover: #bb593a; // Hovered state of negative values: expense, stock price fall, etc.
 
   /* Statuses */
-  --error-fill: #f45725; // Icons or other elements with error status
-  --error-bg: rgba(244, 87, 37, 0.12); // Background for elements with error status
-  --error-bg-hover: rgba(244, 87, 37, 0.24); // Hovered state of background for elements with error status
-  --error-fill-night: #ff8c67; // Icons or other elements with error status
-  --error-bg-night: rgba(244, 87, 37, .32); // Background for elements with error status
-  --error-bg-night-hover: rgba(244, 87, 37, .4); // Hovered state of background for elements with error status
+  --adt-error-fill: #f45725; // Icons or other elements with error status
+  --adt-error-bg: rgba(244, 87, 37, 0.12); // Background for elements with error status
+  --adt-error-bg-hover: rgba(244, 87, 37, 0.24); // Hovered state of background for elements with error status
+  --adt-error-fill-night: #ff8c67; // Icons or other elements with error status
+  --adt-error-bg-night: rgba(244, 87, 37, .32); // Background for elements with error status
+  --adt-error-bg-night-hover: rgba(244, 87, 37, .4); // Hovered state of background for elements with error status
 
-  --success-fill: #4ac99b; // Icons or other elements with success status
-  --success-bg: rgba(74, 201, 155, 0.12); // Background for elements with success status
-  --success-bg-hover: rgba(74, 201, 155, 0.24); // Hovered state of background for elements with success status
-  --success-fill-night: #4ac99b; // Icons or other elements with success status
-  --success-bg-night: rgba(74, 201, 155, .32); // Background for elements with success status
-  --success-bg-night-hover: rgba(74, 201, 155, .4); // Hovered state of background for elements with success status
+  --adt-success-fill: #4ac99b; // Icons or other elements with success status
+  --adt-success-bg: rgba(74, 201, 155, 0.12); // Background for elements with success status
+  --adt-success-bg-hover: rgba(74, 201, 155, 0.24); // Hovered state of background for elements with success status
+  --adt-success-fill-night: #4ac99b; // Icons or other elements with success status
+  --adt-success-bg-night: rgba(74, 201, 155, .32); // Background for elements with success status
+  --adt-success-bg-night-hover: rgba(74, 201, 155, .4); // Hovered state of background for elements with success status
 
-  --warning-fill: #ffc700; // Icons or other elements with warning status
-  --warning-bg: rgba(255, 199, 0, 0.12); // Background icons or other elements with warning status
-  --warning-bg-hover: rgba(255, 199, 0, 0.24); // Hovered status of background icons or other elements with warning status
-  --warning-fill-night: #ffc700; // Icons or other elements with warning status
-  --warning-bg-night: rgba(255, 199, 0, .32); // Background icons or other elements with warning status
-  --warning-bg-night-hover: rgba(255, 199, 0, .4); // Hovered status of background icons or other elements with warning status
+  --adt-warning-fill: #ffc700; // Icons or other elements with warning status
+  --adt-warning-bg: rgba(255, 199, 0, 0.12); // Background icons or other elements with warning status
+  --adt-warning-bg-hover: rgba(255, 199, 0, 0.24); // Hovered status of background icons or other elements with warning status
+  --adt-warning-fill-night: #ffc700; // Icons or other elements with warning status
+  --adt-warning-bg-night: rgba(255, 199, 0, .32); // Background icons or other elements with warning status
+  --adt-warning-bg-night-hover: rgba(255, 199, 0, .4); // Hovered status of background icons or other elements with warning status
 
-  --info-fill: #70b6f6; // Icons or other elements with info status
-  --info-bg: rgba(112, 182, 246, 0.12); // Background icons or other elements with info status
-  --info-bg-hover: rgba(112, 182, 246, 0.24); // Hovered status of background icons or other elements with info status
-  --info-fill-night: #70b6f6; // Icons or other elements with info status
-  --info-bg-night: rgba(112, 182, 246, 0.12); // Background icons or other elements with info status
-  --info-bg-night-hover: rgba(112, 182, 246, .4); // Hovered status of background icons or other elements with info status
+  --adt-info-fill: #70b6f6; // Icons or other elements with info status
+  --adt-info-bg: rgba(112, 182, 246, 0.12); // Background icons or other elements with info status
+  --adt-info-bg-hover: rgba(112, 182, 246, 0.24); // Hovered status of background icons or other elements with info status
+  --adt-info-fill-night: #70b6f6; // Icons or other elements with info status
+  --adt-info-bg-night: rgba(112, 182, 246, 0.12); // Background icons or other elements with info status
+  --adt-info-bg-night-hover: rgba(112, 182, 246, .4); // Hovered status of background icons or other elements with info status
 
-  --neutral-fill: #79818c; // Icons or other elements with neutral status
-  --neutral-bg: rgba(121, 129, 140, 0.12); // Background icons or other elements with neutral status
-  --neutral-bg-hover: rgba(121, 129, 140, 0.24); // Hovered status of background icons or other elements with neutral status
-  --neutral-fill-night: #959ba4; // Icons or other elements with neutral status
-  --neutral-bg-night: rgba(149, 155, 164, .32); // Background icons or other elements with neutral status
-  --neutral-bg-night-hover: rgba(149, 155, 164, .48); // Hovered status of background icons or other elements with neutral status
+  --adt-neutral-fill: #79818c; // Icons or other elements with neutral status
+  --adt-neutral-bg: rgba(121, 129, 140, 0.12); // Background icons or other elements with neutral status
+  --adt-neutral-bg-hover: rgba(121, 129, 140, 0.24); // Hovered status of background icons or other elements with neutral status
+  --adt-neutral-fill-night: #959ba4; // Icons or other elements with neutral status
+  --adt-neutral-bg-night: rgba(149, 155, 164, .32); // Background icons or other elements with neutral status
+  --adt-neutral-bg-night-hover: rgba(149, 155, 164, .48); // Hovered status of background icons or other elements with neutral status
 
   /* Sizing */
-  --default-size: 1rem; /* 16px */
+  --adt-default-size: 1rem; /* 16px */
 
-  --size-xxxs: calc(0.0625 * var(--default-size)); /* 1px */
-  --size-xxs: calc(0.125 * var(--default-size)); /* 2px */
-  --size-xs: calc(0.25 * var(--default-size)); /* 4px */
-  --size-s: calc(0.5 * var(--default-size)); /* 8px */
-  --size-ms: calc(0.75 * var(--default-size)); /* 12px */
-  --size-m: var(--default-size); /* 16px */
-  --size-ml: calc(1.25 * var(--default-size)); /* 20px */
-  --size-l: calc(1.5 * var(--default-size)); /* 24px */
-  --size-xl: calc(1.75 * var(--default-size)); /* 28px */
-  --size-xxl: calc(2 * var(--default-size)); /* 32px */
-  --size-xxxl: calc(2.25 * var(--default-size)); /* 36px */
+  --adt-size-xxxs: calc(0.0625 * var(--adt-default-size)); /* 1px */
+  --adt-size-xxs: calc(0.125 * var(--adt-default-size)); /* 2px */
+  --adt-size-xs: calc(0.25 * var(--adt-default-size)); /* 4px */
+  --adt-size-s: calc(0.5 * var(--adt-default-size)); /* 8px */
+  --adt-size-ms: calc(0.75 * var(--adt-default-size)); /* 12px */
+  --adt-size-m: var(--adt-default-size); /* 16px */
+  --adt-size-ml: calc(1.25 * var(--adt-default-size)); /* 20px */
+  --adt-size-l: calc(1.5 * var(--adt-default-size)); /* 24px */
+  --adt-size-xl: calc(1.75 * var(--adt-default-size)); /* 28px */
+  --adt-size-xxl: calc(2 * var(--adt-default-size)); /* 32px */
+  --adt-size-xxxl: calc(2.25 * var(--adt-default-size)); /* 36px */
   
 
   /* Large Sizing */
-  --size-lg-xxs: calc(10 * var(--size-xxs)); /* 20px */
-  --size-lg-xs: calc(10 * var(--size-xs)); /* 40px */
-  --size-lg-s: calc(10 * var(--size-s)); /* 80px */
-  --size-lg-ms: calc(10 * var(--size-ms)); /* 120px */
-  --size-lg-m: calc(10 * var(--size-m)); /* 160px */
-  --size-lg-ml: calc(10 * var(--size-ml)); /* 200px */
-  --size-lg-l: calc(10 * var(--size-l)); /* 240px */
-  --size-lg-xl: calc(10 * var(--size-xl)); /* 280px */
-  --size-lg-xxl: calc(10 * var(--size-xxl)); /* 320px */
+  --adt-size-lg-xxs: calc(10 * var(--adt-size-xxs)); /* 20px */
+  --adt-size-lg-xs: calc(10 * var(--adt-size-xs)); /* 40px */
+  --adt-size-lg-s: calc(10 * var(--adt-size-s)); /* 80px */
+  --adt-size-lg-ms: calc(10 * var(--adt-size-ms)); /* 120px */
+  --adt-size-lg-m: calc(10 * var(--adt-size-m)); /* 160px */
+  --adt-size-lg-ml: calc(10 * var(--adt-size-ml)); /* 200px */
+  --adt-size-lg-l: calc(10 * var(--adt-size-l)); /* 240px */
+  --adt-size-lg-xl: calc(10 * var(--adt-size-xl)); /* 280px */
+  --adt-size-lg-xxl: calc(10 * var(--adt-size-xxl)); /* 320px */
 
   /* Border Radius */
-  --border-radius-xs: var(--size-xs);
-  --border-radius-s: var(--size-s);
-  --border-radius-m: var(--size-m);
-  --border-radius-l: var(--size-l);
-  --border-radius-xl: var(--size-xl);
-  --border-radius-round: 50%; /* requires the element to have equal height and width for a perfect circle */
+  --adt-border-radius-xs: var(--adt-size-xs);
+  --adt-border-radius-s: var(--adt-size-s);
+  --adt-border-radius-m: var(--adt-size-m);
+  --adt-border-radius-l: var(--adt-size-l);
+  --adt-border-radius-xl: var(--adt-size-xl);
+  --adt-border-radius-round: 50%; /* requires the element to have equal height and width for a perfect circle */
 
   /* Border Sizing */
-  --border-xs: calc(var(--size-m) / 16); /* 1px */
-  --border-s: calc(var(--size-m) / 8); /* 2px */
-  --border-m: calc(var(--size-m) / 4); /* 4px */
-  --border-l: calc(var(--size-m) / 2); /* 8px */
-  --border-xl: calc(var(--size-m)); /* 16px */
+  --adt-border-xs: calc(var(--adt-size-m) / 16); /* 1px */
+  --adt-border-s: calc(var(--adt-size-m) / 8); /* 2px */
+  --adt-border-m: calc(var(--adt-size-m) / 4); /* 4px */
+  --adt-border-l: calc(var(--adt-size-m) / 2); /* 8px */
+  --adt-border-xl: calc(var(--adt-size-m)); /* 16px */
 
   /* Box-Shadows */
-  --box-shadow-01: 0 2px 1px -1px rgba(0, 0, 0, 0.2),
+  --adt-box-shadow-01: 0 2px 1px -1px rgba(0, 0, 0, 0.2),
     0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
-  --box-shadow-02: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+  --adt-box-shadow-02: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
     0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-  --box-shadow-03: 0 3px 3px -2px rgba(0, 0, 0, 0.2),
+  --adt-box-shadow-03: 0 3px 3px -2px rgba(0, 0, 0, 0.2),
     0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 1px 8px 0 rgba(0, 0, 0, 0.12);
-  --box-shadow-04: 0 2px 4px -1px rgba(0, 0, 0, 0.2),
+  --adt-box-shadow-04: 0 2px 4px -1px rgba(0, 0, 0, 0.2),
     0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
-  --box-shadow-05: 0 3px 5px -1px rgba(0, 0, 0, 0.2),
+  --adt-box-shadow-05: 0 3px 5px -1px rgba(0, 0, 0, 0.2),
     0 5px 8px 0 rgba(0, 0, 0, 0.14), 0 1px 14px 0 rgba(0, 0, 0, 0.12);
-  --box-shadow-06: 0 3px 5px -1px rgba(0, 0, 0, 0.2),
+  --adt-box-shadow-06: 0 3px 5px -1px rgba(0, 0, 0, 0.2),
     0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
-  --box-shadow-07: 0 4px 5px -2px rgba(0, 0, 0, 0.2),
+  --adt-box-shadow-07: 0 4px 5px -2px rgba(0, 0, 0, 0.2),
     0 7px 10px 1px rgba(0, 0, 0, 0.14), 0 2px 16px 1px rgba(0, 0, 0, 0.12);
-  --box-shadow-08: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+  --adt-box-shadow-08: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
     0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
-  --box-shadow-09: 0 5px 6px -3px rgba(0, 0, 0, 0.2),
+  --adt-box-shadow-09: 0 5px 6px -3px rgba(0, 0, 0, 0.2),
     0 9px 12px 1px rgba(0, 0, 0, 0.14), 0 3px 16px 2px rgba(0, 0, 0, 0.12);
-  --box-shadow-10: 0 6px 6px -3px rgba(0, 0, 0, 0.2),
+  --adt-box-shadow-10: 0 6px 6px -3px rgba(0, 0, 0, 0.2),
     0 10px 14px 1px rgba(0, 0, 0, 0.14), 0 4px 18px 3px rgba(0, 0, 0, 0.12);
-  --box-shadow-11: 0 6px 7px -4px rgba(0, 0, 0, 0.2),
+  --adt-box-shadow-11: 0 6px 7px -4px rgba(0, 0, 0, 0.2),
     0 11px 15px 1px rgba(0, 0, 0, 0.14), 0 4px 20px 3px rgba(0, 0, 0, 0.12);
-  --box-shadow-12: 0 7px 8px -4px rgba(0, 0, 0, 0.2),
+  --adt-box-shadow-12: 0 7px 8px -4px rgba(0, 0, 0, 0.2),
     0 12px 17px 2px rgba(0, 0, 0, 0.14), 0 5px 22px 4px rgba(0, 0, 0, 0.12);
-  --box-shadow-13: 0 7px 8px -4px rgba(0, 0, 0, 0.2),
+  --adt-box-shadow-13: 0 7px 8px -4px rgba(0, 0, 0, 0.2),
     0 13px 19px 2px rgba(0, 0, 0, 0.14), 0 5px 24px 4px rgba(0, 0, 0, 0.12);
-  --box-shadow-14: 0 7px 9px -4px rgba(0, 0, 0, 0.2),
+  --adt-box-shadow-14: 0 7px 9px -4px rgba(0, 0, 0, 0.2),
     0 14px 21px 2px rgba(0, 0, 0, 0.14), 0 5px 26px 4px rgba(0, 0, 0, 0.12);
-  --box-shadow-15: 0 8px 9px -5px rgba(0, 0, 0, 0.2),
+  --adt-box-shadow-15: 0 8px 9px -5px rgba(0, 0, 0, 0.2),
     0 15px 22px 2px rgba(0, 0, 0, 0.14), 0 6px 28px 5px rgba(0, 0, 0, 0.12);
-  --box-shadow-16: 0 8px 10px -5px rgba(0, 0, 0, 0.2),
+  --adt-box-shadow-16: 0 8px 10px -5px rgba(0, 0, 0, 0.2),
     0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12);
-  --box-shadow-17: 0 8px 11px -5px rgba(0, 0, 0, 0.2),
+  --adt-box-shadow-17: 0 8px 11px -5px rgba(0, 0, 0, 0.2),
     0 17px 26px 2px rgba(0, 0, 0, 0.14), 0 6px 32px 5px rgba(0, 0, 0, 0.12);
-  --box-shadow-18: 0 9px 11px -5px rgba(0, 0, 0, 0.2),
+  --adt-box-shadow-18: 0 9px 11px -5px rgba(0, 0, 0, 0.2),
     0 18px 28px 2px rgba(0, 0, 0, 0.14), 0 7px 34px 6px rgba(0, 0, 0, 0.12);
-  --box-shadow-19: 0 9px 12px -6px rgba(0, 0, 0, 0.2),
+  --adt-box-shadow-19: 0 9px 12px -6px rgba(0, 0, 0, 0.2),
     0 19px 29px 2px rgba(0, 0, 0, 0.14), 0 7px 36px 6px rgba(0, 0, 0, 0.12);
-  --box-shadow-20: 0 10px 13px -6px rgba(0, 0, 0, 0.2),
+  --adt-box-shadow-20: 0 10px 13px -6px rgba(0, 0, 0, 0.2),
     0 20px 31px 3px rgba(0, 0, 0, 0.14), 0 8px 38px 7px rgba(0, 0, 0, 0.12);
-  --box-shadow-21: 0 10px 13px -6px rgba(0, 0, 0, 0.2),
+  --adt-box-shadow-21: 0 10px 13px -6px rgba(0, 0, 0, 0.2),
     0 21px 33px 3px rgba(0, 0, 0, 0.14), 0 8px 40px 7px rgba(0, 0, 0, 0.12);
-  --box-shadow-22: 0 10px 14px -6px rgba(0, 0, 0, 0.2),
+  --adt-box-shadow-22: 0 10px 14px -6px rgba(0, 0, 0, 0.2),
     0 22px 35px 3px rgba(0, 0, 0, 0.14), 0 8px 42px 7px rgba(0, 0, 0, 0.12);
-  --box-shadow-23: 0 11px 14px -7px rgba(0, 0, 0, 0.2),
+  --adt-box-shadow-23: 0 11px 14px -7px rgba(0, 0, 0, 0.2),
     0 23px 36px 3px rgba(0, 0, 0, 0.14), 0 9px 44px 8px rgba(0, 0, 0, 0.12);
-  --box-shadow-24: 0 11px 15px -7px rgba(0, 0, 0, 0.2),
+  --adt-box-shadow-24: 0 11px 15px -7px rgba(0, 0, 0, 0.2),
     0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
 
   /* Spacing */
-  --spacing-01: var(--size-xxs);
-  --spacing-02: var(--size-xs);
-  --spacing-03: var(--size-s);
-  --spacing-04: var(--size-ms);
-  --spacing-05: var(--size-m);
-  --spacing-06: var(--size-ml);
-  --spacing-07: var(--size-l);
-  --spacing-08: var(--size-xl);
-  --spacing-09: var(--size-xxl);
+  --adt-spacing-01: var(--adt-size-xxs);
+  --adt-spacing-02: var(--adt-size-xs);
+  --adt-spacing-03: var(--adt-size-s);
+  --adt-spacing-04: var(--adt-size-ms);
+  --adt-spacing-05: var(--adt-size-m);
+  --adt-spacing-06: var(--adt-size-ml);
+  --adt-spacing-07: var(--adt-size-l);
+  --adt-spacing-08: var(--adt-size-xl);
+  --adt-spacing-09: var(--adt-size-xxl);
 
   /* Timing */
-  --time-extra-slow: 1000ms;
-  --time-slow: 750ms;
-  --time-default: 500ms;
-  --time-fast: 250ms;
-  --time-extra-fast: 100ms;
+  --adt-time-extra-slow: 1000ms;
+  --adt-time-slow: 750ms;
+  --adt-time-default: 500ms;
+  --adt-time-fast: 250ms;
+  --adt-time-extra-fast: 100ms;
 }
