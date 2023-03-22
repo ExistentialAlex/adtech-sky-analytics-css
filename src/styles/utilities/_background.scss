@@ -1,0 +1,42 @@
+.adt-background,
+.adt-bg {
+  &[data-appearance='primary'] {
+    background-color: var(--adt-primary);
+  }
+  
+  &[data-appearance='secondary'] {
+    background-color: var(--adt-secondary);
+  }
+  
+  &[data-appearance='accent'] {
+    background-color: var(--adt-accent);
+  }
+  
+  &[data-appearance='positive'] {
+    background-color: var(--adt-positive);
+  }
+  
+  &[data-appearance='negative'] {
+    background-color: var(--adt-negative);
+  }
+  
+  &[data-appearance='error'] {
+    background-color: var(--adt-error-bg);
+  }
+
+  &[data-appearance='success'] {
+    background-color: var(--adt-success-bg);
+  }
+
+  &[data-appearance='warning'] {
+    background-color: var(--adt-warning-bg);
+  }
+
+  &[data-appearance='info'] {
+    background-color: var(--adt-info-bg);
+  }
+
+  &[data-appearance='neutral'] {
+    background-color: var(--adt-neutral-bg);
+  }
+}

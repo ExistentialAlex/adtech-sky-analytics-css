@@ -1,0 +1,65 @@
+.adt-height {
+  &-xxxs {
+    height: var(--adt-size-xxxs);
+  }
+  &-xxs {
+    height: var(--adt-size-xxs);
+  }
+  &-xs {
+    height: var(--adt-size-xs);
+  }
+  &-s {
+    height: var(--adt-size-s);
+  }
+  &-ms {
+    height: var(--adt-size-ms);
+  }
+  &-m {
+    height: var(--adt-size-m);
+  }
+  &-ml {
+    height: var(--adt-size-ml);
+  }
+  &-l {
+    height: var(--adt-size-l);
+  }
+  &-xl {
+    height: var(--adt-size-xl);
+  }
+  &-xxl {
+    height: var(--adt-size-xxl);
+  }
+  &-xxxl {
+    height: var(--adt-size-xxxl);
+  }
+
+  &-lg {
+    &-xxs {
+      height: var(--adt-size-lg-xxs);
+    }
+    &-xs {
+      height: var(--adt-size-lg-xs);
+    }
+    &-s {
+      height: var(--adt-size-lg-s);
+    }
+    &-ms {
+      height: var(--adt-size-lg-ms);
+    }
+    &-m {
+      height: var(--adt-size-lg-m);
+    }
+    &-ml {
+      height: var(--adt-size-lg-ml);
+    }
+    &-l {
+      height: var(--adt-size-lg-l);
+    }
+    &-xl {
+      height: var(--adt-size-lg-xl);
+    }
+    &-xxl {
+      height: var(--adt-size-lg-xxl);
+    }
+  }
+}
