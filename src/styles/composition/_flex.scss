@@ -1,21 +1,22 @@
 .adt-flex {
   display: flex;
 
-  &[data-content='column'],
-  &[data-content='col'] {
+  &[data-direction='column'],
+  &[data-direction='col'] {
     flex-direction: column;
-
-    &[data-direction='reversed'] {
-      flex-direction: column-reverse;
-    }
   }
 
-  &[data-content='row'] {
-    flex-direction: row;
+  &[data-direction='column-reverse'],
+  &[data-direction='col-reverse'] {
+    flex-direction: column-reverse;
+  }
 
-    &[data-direction='reversed'] {
-      flex-direction: column-reverse;
-    }
+  &[data-direction='row'] {
+    flex-direction: row;
+  }
+  
+  &[data-direction='row-reverse'] {
+    flex-direction: row-reverse;
   }
 
   &[data-align='start'] {
