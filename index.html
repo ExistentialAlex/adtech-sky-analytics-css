@@ -7,12 +7,17 @@
     <title>Sky Analytics CSS</title>
     <link rel="stylesheet" href="./dist/main.css" />
     <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+      #adt-colors > div:not(:last-child) {
+        border-bottom: 1px solid var(--adt-neutral-fill);
+      }
+      #adt-colors > div > div:not(:last-child) {
+        border-bottom: 1px solid var(--adt-neutral-bg);
+      }
+    </style>
   </head>
   <body>
-    <nav
-      class="[ adt-flex ] [ adt-p-4 adt-p-x-6 adt-bs ]"
-      data-justify="between"
-    >
+    <nav class="[ adt-flex ] [ adt-p-4 adt-px-6 adt-bs ]" data-justify="between">
       <h1>AdTech Sky Analytics CSS</h1>
       <a
         href="https://github.com/ExistentialAlex/adtech-sky-analytics-css"
@@ -21,12 +26,11 @@
         ><i data-feather="github"></i
       ></a>
     </nav>
-    <article class="adt-p-7">
-      <div
+    <article class="[ adt-flex adt-gap-m ] [ adt-p-7 ]" data-direction="col">
+      <section
         class="[ adt-card ] [ adt-flow ] [ adt-p-5 adt-br-m adt-bs ]"
         data-elevation="03"
         data-hover="7"
-        data-appearance="primary"
       >
         <h2>Headings</h2>
         <hr />
@@ -36,7 +40,517 @@
         <h4>My h4 text!</h4>
         <h5>My h5 text!</h5>
         <h6>My h6 text!</h6>
-      </div>
+      </section>
+      <section
+        id="adt-colors"
+        class="[ adt-flow ] [ adt-card ] [ adt-p-5 adt-br-m adt-bs ]"
+        data-elevation="03"
+        data-hover="7"
+      >
+        <h2>Colours</h2>
+        <hr />
+        <div>
+          <h3>Primary</h3>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Default</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">Background of buttons, marker icons</p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-bg adt-ml-auto ]"
+              data-appearance="primary"
+            ></span>
+          </div>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Primary Hover</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">
+              Hovered state background of buttons, marker icons
+            </p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-ml-auto ]"
+              style="background-color: var(--adt-primary-hover)"
+            ></span>
+          </div>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Primary Active</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">Active state background of buttons</p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-ml-auto ]"
+              style="background-color: var(--adt-primary-active)"
+            ></span>
+          </div>
+        </div>
+        <div>
+          <h3>Secondary</h3>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Default</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">Background of input field and secondary buttons</p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-bg adt-ml-auto ]"
+              data-appearance="secondary"
+            ></span>
+          </div>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Secondary Hover</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">
+              Hovered state background of input field and secondary buttons
+            </p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-ml-auto ]"
+              style="background-color: var(--adt-secondary-hover)"
+            ></span>
+          </div>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Secondary Active</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">
+              Active state background of input field and secondary buttons
+            </p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-ml-auto ]"
+              style="background-color: var(--adt-secondary-active)"
+            ></span>
+          </div>
+        </div>
+        <div>
+          <h3>Accent</h3>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Default</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">Background of accent icons or buttons</p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-bg adt-ml-auto ]"
+              data-appearance="accent"
+            ></span>
+          </div>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Accent Hover</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">
+              Hovered state background of accent icons or buttons
+            </p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-ml-auto ]"
+              style="background-color: var(--adt-accent-hover)"
+            ></span>
+          </div>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Accent Active</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">
+              Active state background of accent icons or buttons
+            </p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-ml-auto ]"
+              style="background-color: var(--adt-accent-active)"
+            ></span>
+          </div>
+        </div>
+        <div>
+          <h3>Positive</h3>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Default</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">Positive values: income, stock price grow, etc.</p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-bg adt-ml-auto ]"
+              data-appearance="positive"
+            ></span>
+          </div>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Positive Hover</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">
+              Hovered state of positive values: income, stock price grow, etc.
+            </p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-ml-auto ]"
+              style="background-color: var(--adt-positive-hover)"
+            ></span>
+          </div>
+        </div>
+        <div>
+          <h3>Negative</h3>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Default</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">Negative values: expense, stock price fall, etc.</p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-bg adt-ml-auto ]"
+              data-appearance="negative"
+            ></span>
+          </div>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Negative Hover</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">
+              Hovered state of negative values: expense, stock price fall, etc.
+            </p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-ml-auto ]"
+              style="background-color: var(--adt-negative-hover)"
+            ></span>
+          </div>
+        </div>
+        <div>
+          <h3>Error</h3>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Fill</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">Icons or other elements with error status</p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-ml-auto ]"
+              style="background-color: var(--adt-error-fill)"
+            ></span>
+          </div>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Background</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">Background for elements with error status</p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-bg adt-ml-auto ]"
+              data-appearance="error"
+            ></span>
+          </div>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Background Hover</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">
+              Hovered state of background for elements with error status
+            </p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-ml-auto ]"
+              style="background-color: var(--adt-error-bg-hover)"
+            ></span>
+          </div>
+        </div>
+        <div>
+          <h3>Success</h3>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Fill</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">Icons or other elements with success status</p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-ml-auto ]"
+              style="background-color: var(--adt-success-fill)"
+            ></span>
+          </div>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Background</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">Background for elements with success status</p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-bg adt-ml-auto ]"
+              data-appearance="success"
+            ></span>
+          </div>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Background Hover</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">
+              Hovered state of background for elements with success status
+            </p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-ml-auto ]"
+              style="background-color: var(--adt-success-bg-hover)"
+            ></span>
+          </div>
+        </div>
+        <div>
+          <h3>Warning</h3>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Fill</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">Icons or other elements with warning status</p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-ml-auto ]"
+              style="background-color: var(--adt-warning-fill)"
+            ></span>
+          </div>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Background</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">
+              Background icons or other elements with warning status
+            </p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-bg adt-ml-auto ]"
+              data-appearance="warning"
+            ></span>
+          </div>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Background Hover</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">
+              Hovered status of background icons or other elements with warning status
+            </p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-ml-auto ]"
+              style="background-color: var(--adt-warning-bg-hover)"
+            ></span>
+          </div>
+        </div>
+        <div>
+          <h3>Info</h3>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Fill</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">Icons or other elements with info status</p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-ml-auto ]"
+              style="background-color: var(--adt-info-fill)"
+            ></span>
+          </div>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Background</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">
+              Background icons or other elements with info status
+            </p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-bg adt-ml-auto ]"
+              data-appearance="info"
+            ></span>
+          </div>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Background Hover</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">
+              Hovered status of background icons or other elements with info status
+            </p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-ml-auto ]"
+              style="background-color: var(--adt-info-bg-hover)"
+            ></span>
+          </div>
+        </div>
+        <div>
+          <h3>Neutral</h3>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Fill</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">Icons or other elements with neutral status</p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-ml-auto ]"
+              style="background-color: var(--adt-neutral-fill)"
+            ></span>
+          </div>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Background</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">
+              Background icons or other elements with neutral status
+            </p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-bg adt-ml-auto ]"
+              data-appearance="neutral"
+            ></span>
+          </div>
+          <div class="[ adt-flex ] [ adt-p-6 ]" data-align="center">
+            <h4>Background Hover</h4>
+            <p class="[ adt-ml-5 adt-text-02 ]">
+              Hovered status of background icons or other elements with neutral status
+            </p>
+            <span
+              class="[ adt-br-round adt-width-lg-s adt-height-lg-s adt-ml-auto ]"
+              style="background-color: var(--adt-neutral-bg-hover)"
+            ></span>
+          </div>
+        </div>
+      </section>
+      <section
+        class="[ adt-flow ] [ adt-card ] [ adt-p-5 adt-br-m adt-bs ]"
+        data-elevation="03"
+        data-hover="7"
+      >
+        <h2>Gradients</h2>
+        <hr />
+        <div class="[ adt-flex ]" data-justify="between" data-align="center">
+          <h3>Sky Brand Gradient</h3>
+          <div
+            class="[ adt-ml-auto adt-mr-4 adt-height-lg-s adt-width-lg-s ]"
+            style="background-color: var(--sky-brand-orange)"
+          ></div>
+          <div class="[ adt-grad-sky-r adt-width-lg-xl adt-height-lg-s ]"></div>
+          <div
+            class="[ adt-ml-4 adt-height-lg-s adt-width-lg-s ]"
+            style="background-color: var(--sky-brand-blue)"
+          ></div>
+        </div>
+        <div class="adt-flex" data-justify="between" data-align="center">
+          <h3>Sky Media Gradient</h3>
+          <div
+            class="[ adt-ml-auto adt-mr-4 adt-height-lg-s adt-width-lg-s ]"
+            style="background-color: var(--sky-media-orange)"
+          ></div>
+          <div class="[ adt-grad-media-r adt-width-lg-xl adt-height-lg-s ]"></div>
+          <div
+            class="[ adt-ml-4 adt-height-lg-s adt-width-lg-s ]"
+            style="background-color: var(--sky-media-pink)"
+          ></div>
+        </div>
+        <div class="adt-flex" data-align="center">
+          <h3>Sky Yellow to Orange Gradient</h3>
+          <div
+            class="[ adt-ml-auto adt-mr-4 adt-height-lg-s adt-width-lg-s ]"
+            style="background-color: var(--sky-media-graph-yellow)"
+          ></div>
+          <div class="[ adt-grad-yo-r adt-width-lg-xl adt-height-lg-s ]"></div>
+          <div
+            class="[ adt-ml-4 adt-height-lg-s adt-width-lg-s ]"
+            style="background-color: var(--sky-media-graph-orange)"
+          ></div>
+        </div>
+        <div class="adt-flex" data-justify="between" data-align="center">
+          <h3>Sky Orange to Pink Gradient</h3>
+          <div
+            class="[ adt-ml-auto adt-mr-4 adt-height-lg-s adt-width-lg-s ]"
+            style="background-color: var(--sky-media-graph-orange)"
+          ></div>
+          <div class="[ adt-grad-op-r adt-width-lg-xl adt-height-lg-s ]"></div>
+          <div
+            class="[ adt-ml-4 adt-height-lg-s adt-width-lg-s ]"
+            style="background-color: var(--sky-media-graph-pink)"
+          ></div>
+        </div>
+        <div class="adt-flex" data-justify="between" data-align="center">
+          <h3>Sky Pink to Purple Gradient</h3>
+          <div
+            class="[ adt-ml-auto adt-mr-4 adt-height-lg-s adt-width-lg-s ]"
+            style="background-color: var(--sky-media-graph-pink)"
+          ></div>
+          <div class="[ adt-grad-pp-r adt-width-lg-xl adt-height-lg-s ]"></div>
+          <div
+            class="[ adt-ml-4 adt-height-lg-s adt-width-lg-s ]"
+            style="background-color: var(--sky-media-graph-purple)"
+          ></div>
+        </div>
+        <div class="adt-flex" data-justify="between" data-align="center">
+          <h3>Sky Purple to Turquoise Gradient</h3>
+          <div
+            class="[ adt-ml-auto adt-mr-4 adt-height-lg-s adt-width-lg-s ]"
+            style="background-color: var(--sky-media-graph-purple)"
+          ></div>
+          <div class="[ adt-grad-pt-r adt-width-lg-xl adt-height-lg-s ]"></div>
+          <div
+            class="[ adt-ml-4 adt-height-lg-s adt-width-lg-s ]"
+            style="background-color: var(--sky-media-graph-turquoise)"
+          ></div>
+        </div>
+      </section>
+      <section class="[ adt-card ] [ adt-p-5 adt-br-m adt-bs ]" data-elevation="03" data-hover="7">
+        <h2>Lists</h2>
+        <hr />
+        <h3>Un-ordered List</h3>
+        <div class="adt-flex" data-justify="evenly">
+          <ul data-appearance="primary">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>
+              Item 3
+              <ul>
+                <li>Sub Item 1</li>
+                <li>Sub Item 2</li>
+              </ul>
+            </li>
+          </ul>
+          <ul data-appearance="secondary">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>
+              Item 3
+              <ul>
+                <li>Sub Item 1</li>
+                <li>Sub Item 2</li>
+              </ul>
+            </li>
+          </ul>
+          <ul data-appearance="accent">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>
+              Item 3
+              <ul>
+                <li>Sub Item 1</li>
+                <li>Sub Item 2</li>
+              </ul>
+            </li>
+          </ul>
+          <ul data-appearance="positive">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>
+              Item 3
+              <ul>
+                <li>Sub Item 1</li>
+                <li>Sub Item 2</li>
+              </ul>
+            </li>
+          </ul>
+          <ul data-appearance="negative">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>
+              Item 3
+              <ul>
+                <li>Sub Item 1</li>
+                <li>Sub Item 2</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <h3>Ordered List</h3>
+        <div class="adt-flex" data-justify="evenly">
+          <ol data-appearance="error">
+            <li>I</li>
+            <li>like</li>
+            <li>
+              lists
+              <ol>
+                <li>Especially</li>
+                <li>Indented</li>
+                <li>lists</li>
+              </ol>
+            </li>
+          </ol>
+          <ol data-appearance="success">
+            <li>I</li>
+            <li>like</li>
+            <li>
+              lists
+              <ol>
+                <li>Especially</li>
+                <li>Indented</li>
+                <li>lists</li>
+              </ol>
+            </li>
+          </ol>
+          <ol data-appearance="warning">
+            <li>I</li>
+            <li>like</li>
+            <li>
+              lists
+              <ol>
+                <li>Especially</li>
+                <li>Indented</li>
+                <li>lists</li>
+              </ol>
+            </li>
+          </ol>
+          <ol data-appearance="info">
+            <li>I</li>
+            <li>like</li>
+            <li>
+              lists
+              <ol>
+                <li>Especially</li>
+                <li>Indented</li>
+                <li>lists</li>
+              </ol>
+            </li>
+          </ol>
+          <ol data-appearance="neutral">
+            <li>I</li>
+            <li>like</li>
+            <li>
+              lists
+              <ol>
+                <li>Especially</li>
+                <li>Indented</li>
+                <li>lists</li>
+              </ol>
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section class="[ adt-card ] [ adt-p-5 adt-br-m adt-bs ]" data-elevation="03" data-hover="7">
+        <h2>Buttons</h2>
+        <hr />
+        <div>
+          <button class="btn">Primary</button>
+          <button class="btn">Secondary</button>
+          <button class="btn">Accent</button>
+          <button class="btn">Flat</button>
+          <button class="btn">Outline</button>
+          <button class="btn">Icon</button>
+        </div>
+      </section>
     </article>
 
     <script>
