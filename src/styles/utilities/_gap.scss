@@ -1,0 +1,56 @@
+.adt-gap {
+  &-xxxs,
+  &[data-gap='xxxs'] {
+    gap: var(--adt-size-xxxs);
+  }
+
+  &-xxs,
+  &[data-gap='xxs'] {
+    gap: var(--adt-size-xxs);
+  }
+
+  &-xs,
+  &[data-gap='xs'] {
+    gap: var(--adt-size-xs);
+  }
+
+  &-s,
+  &[data-gap='s'] {
+    gap: var(--adt-size-s);
+  }
+
+  &-ms,
+  &[data-gap='ms'] {
+    gap: var(--adt-size-ms);
+  }
+
+  &-m,
+  &[data-gap='m'] {
+    gap: var(--adt-size-m);
+  }
+
+  &-ml,
+  &[data-gap='ml'] {
+    gap: var(--adt-size-ml);
+  }
+
+  &-l,
+  &[data-gap='l'] {
+    gap: var(--adt-size-l);
+  }
+
+  &-xl,
+  &[data-gap='xl'] {
+    gap: var(--adt-size-xl);
+  }
+
+  &-xxl,
+  &[data-gap='xxl'] {
+    gap: var(--adt-size-xxl);
+  }
+
+  &-xxxl,
+  &[data-gap='xxxl'] {
+    gap: var(--adt-size-xxxl);
+  }
+}
