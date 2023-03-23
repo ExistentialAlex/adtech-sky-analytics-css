@@ -1,41 +1,51 @@
 .adt-background,
 .adt-bg {
+  &-primary,
   &[data-appearance='primary'] {
     background-color: var(--adt-primary);
   }
-  
+
+  &-secondary,
   &[data-appearance='secondary'] {
     background-color: var(--adt-secondary);
   }
-  
+
+  &-accent,
   &[data-appearance='accent'] {
     background-color: var(--adt-accent);
   }
-  
+
+  &-positive,
   &[data-appearance='positive'] {
     background-color: var(--adt-positive);
   }
-  
+
+  &-negative,
   &[data-appearance='negative'] {
     background-color: var(--adt-negative);
   }
-  
+
+  &-error,
   &[data-appearance='error'] {
     background-color: var(--adt-error-bg);
   }
 
+  &-success,
   &[data-appearance='success'] {
     background-color: var(--adt-success-bg);
   }
 
+  &-warning,
   &[data-appearance='warning'] {
     background-color: var(--adt-warning-bg);
   }
 
+  &-info,
   &[data-appearance='info'] {
     background-color: var(--adt-info-bg);
   }
 
+  &-neutral,
   &[data-appearance='neutral'] {
     background-color: var(--adt-neutral-bg);
   }
