@@ -243,11 +243,11 @@
   --adt-size-s: calc(0.5 * var(--adt-default-size)); /* 8px */
   --adt-size-ms: calc(0.75 * var(--adt-default-size)); /* 12px */
   --adt-size-m: var(--adt-default-size); /* 16px */
-  --adt-size-ml: calc(1.25 * var(--adt-default-size)); /* 20px */
-  --adt-size-l: calc(1.5 * var(--adt-default-size)); /* 24px */
-  --adt-size-xl: calc(1.75 * var(--adt-default-size)); /* 28px */
-  --adt-size-xxl: calc(2 * var(--adt-default-size)); /* 32px */
-  --adt-size-xxxl: calc(2.25 * var(--adt-default-size)); /* 36px */
+  --adt-size-ml: calc(1.5 * var(--adt-default-size)); /* 24px */
+  --adt-size-l: calc(2 * var(--adt-default-size)); /* 32px */
+  --adt-size-xl: calc(2.5 * var(--adt-default-size)); /* 40px */
+  --adt-size-xxl: calc(3 * var(--adt-default-size)); /* 48px */
+  --adt-size-xxxl: calc(3.5 * var(--adt-default-size)); /* 56px */
 
   /* Large Sizing */
   --adt-size-lg-xxs: calc(10 * var(--adt-size-xxs)); /* 20px */
@@ -255,10 +255,10 @@
   --adt-size-lg-s: calc(10 * var(--adt-size-s)); /* 80px */
   --adt-size-lg-ms: calc(10 * var(--adt-size-ms)); /* 120px */
   --adt-size-lg-m: calc(10 * var(--adt-size-m)); /* 160px */
-  --adt-size-lg-ml: calc(10 * var(--adt-size-ml)); /* 200px */
-  --adt-size-lg-l: calc(10 * var(--adt-size-l)); /* 240px */
-  --adt-size-lg-xl: calc(10 * var(--adt-size-xl)); /* 280px */
-  --adt-size-lg-xxl: calc(10 * var(--adt-size-xxl)); /* 320px */
+  --adt-size-lg-ml: calc(10 * var(--adt-size-ml)); /* 240px */
+  --adt-size-lg-l: calc(10 * var(--adt-size-l)); /* 320px */
+  --adt-size-lg-xl: calc(10 * var(--adt-size-xl)); /* 400px */
+  --adt-size-lg-xxl: calc(10 * var(--adt-size-xxl)); /* 480px */
 
   /* Border Radius */
   --adt-border-radius-xs: var(--adt-size-xs);
