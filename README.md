@@ -25,7 +25,7 @@ To resolve this, add an `.npmrc` file to your repository with the following cont
 2. Include the css in your app by referencing the import
    E.g. `node_modules/@sky-uk/adtech-sky-analytics-css/dist/index.css`
 
-## Contributer
+## Contributers
 
 - Alexander Hewitson ([ExistentialAlex](https://github.com/ExistentialAlex))
 
