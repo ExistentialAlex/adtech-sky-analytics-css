@@ -3,13 +3,18 @@
   "version": "0.0.0",
   "description": "A custom set of CSS rules for the Sky Analytics project. Designed using the CUBE CSS principles.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "npx sass src/styles/main.scss dist/main.css --watch",
-    "build": "npx sass src/styles/main.scss dist/main.css --style=compressed"
+    "start": "npx sass src/styles/scss/main.scss dist/index.css --watch",
+    "build": "npm run build:main && npm run build:css && npm run copy:styles",
+    "build:main": "npx sass src/styles/scss/main.scss dist/index.css --style=compressed --no-source-map",
+    "build:css": "npx sass src/styles/scss:dist/css --style=compressed --no-source-map",
+    "copy:styles": "node ./scripts/copy-files.js"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "sass": "^1.59.3"
+  "devDependencies": {
+    "sass": "^1.59.3",
+    "strip-comments": "^2.0.1"
   }
 }
