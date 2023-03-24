@@ -19,5 +19,8 @@
   "devDependencies": {
     "sass": "^1.59.3",
     "strip-comments": "^2.0.1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
