@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sky Analytics CSS</title>
-    <link rel="stylesheet" href="./dist/main.css" />
+    <link rel="stylesheet" href="./dist/index.css" />
     <script src="https://unpkg.com/feather-icons"></script>
     <style>
       #adt-colors > div:not(:last-child) {
@@ -347,7 +347,7 @@
             class="[ adt-ml-auto adt-mr-4 adt-height-lg-s adt-width-lg-s ]"
             style="background-color: var(--sky-brand-orange)"
           ></div>
-          <div class="[ adt-grad-sky-r adt-width-lg-xl adt-height-lg-s ]"></div>
+          <div class="[ adt-grad-sky-r adt-width-lg-l adt-height-lg-s ]"></div>
           <div
             class="[ adt-ml-4 adt-height-lg-s adt-width-lg-s ]"
             style="background-color: var(--sky-brand-blue)"
@@ -359,7 +359,7 @@
             class="[ adt-ml-auto adt-mr-4 adt-height-lg-s adt-width-lg-s ]"
             style="background-color: var(--sky-media-orange)"
           ></div>
-          <div class="[ adt-grad-media-r adt-width-lg-xl adt-height-lg-s ]"></div>
+          <div class="[ adt-grad-media-r adt-width-lg-l adt-height-lg-s ]"></div>
           <div
             class="[ adt-ml-4 adt-height-lg-s adt-width-lg-s ]"
             style="background-color: var(--sky-media-pink)"
@@ -371,7 +371,7 @@
             class="[ adt-ml-auto adt-mr-4 adt-height-lg-s adt-width-lg-s ]"
             style="background-color: var(--sky-media-graph-yellow)"
           ></div>
-          <div class="[ adt-grad-yo-r adt-width-lg-xl adt-height-lg-s ]"></div>
+          <div class="[ adt-grad-yo-r adt-width-lg-l adt-height-lg-s ]"></div>
           <div
             class="[ adt-ml-4 adt-height-lg-s adt-width-lg-s ]"
             style="background-color: var(--sky-media-graph-orange)"
@@ -383,7 +383,7 @@
             class="[ adt-ml-auto adt-mr-4 adt-height-lg-s adt-width-lg-s ]"
             style="background-color: var(--sky-media-graph-orange)"
           ></div>
-          <div class="[ adt-grad-op-r adt-width-lg-xl adt-height-lg-s ]"></div>
+          <div class="[ adt-grad-op-r adt-width-lg-l adt-height-lg-s ]"></div>
           <div
             class="[ adt-ml-4 adt-height-lg-s adt-width-lg-s ]"
             style="background-color: var(--sky-media-graph-pink)"
@@ -395,7 +395,7 @@
             class="[ adt-ml-auto adt-mr-4 adt-height-lg-s adt-width-lg-s ]"
             style="background-color: var(--sky-media-graph-pink)"
           ></div>
-          <div class="[ adt-grad-pp-r adt-width-lg-xl adt-height-lg-s ]"></div>
+          <div class="[ adt-grad-pp-r adt-width-lg-l adt-height-lg-s ]"></div>
           <div
             class="[ adt-ml-4 adt-height-lg-s adt-width-lg-s ]"
             style="background-color: var(--sky-media-graph-purple)"
@@ -407,7 +407,7 @@
             class="[ adt-ml-auto adt-mr-4 adt-height-lg-s adt-width-lg-s ]"
             style="background-color: var(--sky-media-graph-purple)"
           ></div>
-          <div class="[ adt-grad-pt-r adt-width-lg-xl adt-height-lg-s ]"></div>
+          <div class="[ adt-grad-pt-r adt-width-lg-l adt-height-lg-s ]"></div>
           <div
             class="[ adt-ml-4 adt-height-lg-s adt-width-lg-s ]"
             style="background-color: var(--sky-media-graph-turquoise)"
@@ -542,17 +542,43 @@
       <section class="[ adt-card ] [ adt-p-5 adt-br-m adt-bs ]" data-elevation="03" data-hover="7">
         <h2>Buttons</h2>
         <hr />
-        <div>
-          <button class="btn">Primary</button>
-          <button class="btn">Secondary</button>
-          <button class="btn">Accent</button>
-          <button class="btn">Flat</button>
-          <button class="btn">Outline</button>
-          <button class="btn">Icon</button>
+        <div class="adt-flex" data-justify="between">
+          <button class="adt-btn" data-appearance="sky">Sky</button>
+          <button class="adt-btn" data-appearance="media">Media</button>
+          <button class="adt-btn" data-appearance="primary">Primary</button>
+          <button class="adt-btn" data-appearance="secondary">Secondary</button>
+          <button class="adt-btn" data-appearance="accent">Accent</button>
+          <button class="adt-btn" data-appearance="flat">Flat</button>
+          <button class="adt-btn" data-appearance="outline">Outline</button>
+          <button class="adt-btn" data-appearance="border">Border</button>
+          <button class="adt-btn" data-appearance="icon"><i data-feather="x"></i></button>
+        </div>
+      </section>
+      <section class="[ adt-card ] [ adt-p-5 adt-br-m adt-bs ]" data-elevation="03" data-hover="7">
+        <h2>Tables</h2>
+        <hr />
+        <div class="adt-p-4">
+          <table class="adt-table" data-appearance="primary">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Description</th>
+                <th>Value</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>This is a test description</td>
+                <td>
+                  <span class="[ adt-bg adt-p-3 adt-br-s ]" data-appearance="positive">£300</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </section>
     </article>
-
     <script>
       feather.replace();
     </script>
