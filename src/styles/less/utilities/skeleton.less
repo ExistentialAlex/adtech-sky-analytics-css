@@ -1,0 +1,60 @@
+.adt-skeleton {
+  position: relative;
+  color: transparent !important;
+  background: transparent !important;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  &::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: var(--adt-clear-hover);
+    animation: adtSkeletonVibe ease-in-out 1s infinite alternate;
+  }
+
+  &__rounded {
+    &::after {
+      border-radius: inherit;
+    }
+  }
+  &__light {
+    &::after {
+      background-color: rgba(255, 255, 255, 0.24);
+    }
+  }
+  &__short {
+    &::after {
+      width: 40%;
+    }
+  }
+  &__center {
+    &::after {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+      width: 40%;
+    }
+  }
+  &__text {
+    &::before {
+      content: '\a0';
+    }
+  }
+}
+
+@keyframes adtSkeletonVibe {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0.5;
+  }
+}

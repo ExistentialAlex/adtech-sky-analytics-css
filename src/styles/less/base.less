@@ -1,0 +1,48 @@
+@import 'utilities/text.scss';
+
+body {
+  font-family: 'Sky Font Regular', 'Helvetica Neue light', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  color: var(--adt-text-01);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  &:extend(.adt-text-grad-sky);
+  line-height: 100%;
+  font-family: 'Sky Font Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: var(--adt-size-xxxl);
+}
+
+h2 {
+  font-size: var(--adt-size-xxl);
+}
+
+h3 {
+  font-size: var(--adt-size-xl);
+}
+
+h4 {
+  font-size: var(--adt-size-l);
+}
+
+h5 {
+  font-size: var(--adt-size-ml);
+}
+
+h6 {
+  font-size: var(--adt-size-m);
+}
+
+hr {
+  border-color: var(--adt-neutral-bg);
+  border-width: 0;
+  border-top-width: 1px;
+}

@@ -1,0 +1,83 @@
+ul,
+ol {
+  & li {
+    padding-left: var(--adt-size-s);
+  }
+
+  & > ::marker {
+    font-weight: bold;
+  }
+
+  &[data-appearance='primary'] > ::marker {
+    color: var(--adt-primary);
+  }
+
+  &[data-appearance='secondary'] > ::marker {
+    color: var(--adt-secondary);
+  }
+
+  &[data-appearance='accent'] > ::marker {
+    color: var(--adt-accent);
+  }
+
+  &[data-appearance='positive'] > ::marker {
+    color: var(--adt-positive);
+  }
+
+  &[data-appearance='negative'] > ::marker {
+    color: var(--adt-negative);
+  }
+
+  &[data-appearance='success'] > ::marker {
+    color: var(--adt-success-fill);
+  }
+
+  &[data-appearance='error'] > ::marker {
+    color: var(--adt-error-fill);
+  }
+
+  &[data-appearance='warning'] > ::marker {
+    color: var(--adt-warning-fill);
+  }
+
+  &[data-appearance='info'] > ::marker {
+    color: var(--adt-info-fill);
+  }
+
+  &[data-appearance='neutral'] > ::marker {
+    color: var(--adt-neutral-fill);
+  }
+
+  & > li {
+    & ul,
+    & ol {
+      color: var(--adt-text-02);
+      padding-left: var(--adt-size-s);
+
+      & > ::marker {
+        color: var(--adt-text-03);
+      }
+    }
+
+    & ul {
+      & > ::marker {
+        content: '-';
+      }
+    }
+  }
+}
+
+ul {
+  & > ::marker {
+    font-size: var(--adt-size-l);
+  }
+}
+
+ol {
+  padding-left: var(--adt-size-xxl);
+  line-height: var(--adt-size-xxl);
+
+  & > li {
+    padding-left: var(--adt-size-m);
+  }
+}
