@@ -18,23 +18,23 @@ h6 {
 }
 
 h1 {
-  font-size: var(--adt-size-xxxl);
-}
-
-h2 {
-  font-size: var(--adt-size-xxl);
-}
-
-h3 {
   font-size: var(--adt-size-xl);
 }
 
-h4 {
+h2 {
   font-size: var(--adt-size-l);
 }
 
-h5 {
+h3 {
   font-size: var(--adt-size-ml);
+}
+
+h4 {
+  font-size: var(--adt-size-m);
+}
+
+h5 {
+  font-size: var(--adt-size-m);
 }
 
 h6 {
@@ -45,4 +45,9 @@ hr {
   border-color: var(--adt-neutral-bg);
   border-width: 0;
   border-top-width: 1px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
