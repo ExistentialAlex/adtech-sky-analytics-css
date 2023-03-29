@@ -30,17 +30,17 @@
   --sky-purple-turquoise-gradient: var(--sky-media-graph-purple), var(--sky-media-graph-turquoise);
 
   /* App Colours */
-  --adt-primary: #ff7800; // Background of buttons, marker icons
-  --adt-primary-hover: #fc8a48; // Hovered state background of buttons, marker icons
-  --adt-primary-active: #e76e04; // Active state background of buttons
+  --adt-primary: #526ed3; // Background of buttons, marker icons
+  --adt-primary-hover: #6c86e2; // Hovered state background of buttons, marker icons
+  --adt-primary-active: #314692; // Active state background of buttons
 
   --adt-secondary: #ebefff; // Background of input field and secondary buttons
   --adt-secondary-hover: #dfe3f3; // Hovered state background of input field and secondary buttons
   --adt-secondary-active: #d8ddf2; // Active state background of input field and secondary buttons
 
-  --adt-accent: #fa0082; // Background of accent icons or buttons
-  --adt-accent-hover: #f73498; // Hovered state background of accent icons or buttons
-  --adt-accent-active: #dd0273; // Active state background of accent icons or buttons
+  --adt-accent: #ff7043; // Background of accent icons or buttons
+  --adt-accent-hover: #ff9a94; // Hovered state background of accent icons or buttons
+  --adt-accent-active: #e7716a; // Active state background of accent icons or buttons
 
   --adt-selection: rgba(112, 182, 246, 0.12); // Selected text highlight color
   --adt-focus: rgba(51, 51, 51, 0.64); // Focused element border color
@@ -94,9 +94,14 @@
   --adt-base-09: #000; // Icons color over inverted background
 
   /* Text */
-  --adt-text-01: rgba(0, 0, 0, 0.8); // Primary text and headings
-  --adt-text-02: rgba(0, 0, 0, 0.5); // Secondary text and descriptions
-  --adt-text-03: rgba(0, 0, 0, 0.3); // Inactive, additional points, minor information and helpers
+  --adt-text-01: #1b1f3b; // Primary text and headings
+  --adt-text-02: rgba(27, 31, 59, 0.65); // Secondary text and descriptions
+  --adt-text-03: rgba(
+    27,
+    31,
+    59,
+    0.4
+  ); // Inactive, additional points, minor information and helpers
 
   --adt-text-01-night: #ffffff; // Primary text and headings
   --adt-text-02-night: rgba(255, 255, 255, 0.72); // Secondary text and descriptions
@@ -124,7 +129,7 @@
   --adt-negative-night-hover: #bb593a; // Hovered state of negative values: expense, stock price fall, etc.
 
   /* Statuses */
-  --adt-error-fill: rgb(244, 87, 37); // Icons or other elements with error status
+  --adt-error-fill: dd4c1e; // Icons or other elements with error status
   --adt-error-bg: rgba(244, 87, 37, 0.12); // Background for elements with error status
   --adt-error-bg-hover: rgba(
     244,
@@ -141,7 +146,7 @@
     0.4
   ); // Hovered state of background for elements with error status
 
-  --adt-success-fill: rgb(74, 201, 155); // Icons or other elements with success status
+  --adt-success-fill: #4ac99b; // Icons or other elements with success status
   --adt-success-bg: rgba(74, 201, 155, 0.12); // Background for elements with success status
   --adt-success-bg-hover: rgba(
     74,
@@ -158,81 +163,46 @@
     0.4
   ); // Hovered state of background for elements with success status
 
-  --adt-warning-fill: rgb(255, 236, 3); // Icons or other elements with warning status
+  --adt-warning-fill: #ffc700; // Icons or other elements with warning status
   --adt-warning-bg: rgba(
     255,
-    236,
-    3,
-    0.12
+    199,
+    0,
+    0.32
   ); // Background icons or other elements with warning status
   --adt-warning-bg-hover: rgba(
     255,
-    236,
-    3,
-    0.24
+    199,
+    0,
+    0.4
   ); // Hovered status of background icons or other elements with warning status
-  --adt-warning-fill-night: rgb(255, 236, 3); // Icons or other elements with warning status
+  --adt-warning-fill-night: #ffc700; // Icons or other elements with warning status
   --adt-warning-bg-night: rgba(
     255,
-    236,
-    3,
+    199,
+    0,
     0.32
   ); // Background icons or other elements with warning status
   --adt-warning-bg-night-hover: rgba(
     255,
-    236,
-    3,
+    199,
+    0,
     0.4
   ); // Hovered status of background icons or other elements with warning status
 
-  --adt-info-fill: rgb(118, 51, 255); // Icons or other elements with info status
-  --adt-info-bg: rgba(118, 51, 255, 0.12); // Background icons or other elements with info status
-  --adt-info-bg-hover: rgba(
-    118,
-    51,
-    255,
-    0.24
-  ); // Hovered status of background icons or other elements with info status
-  --adt-info-fill-night: rgb(118, 51, 255); // Icons or other elements with info status
-  --adt-info-bg-night: rgba(
-    118,
-    51,
-    255,
-    0.12
-  ); // Background icons or other elements with info status
-  --adt-info-bg-night-hover: rgba(
-    118,
-    51,
-    255,
-    0.4
-  ); // Hovered status of background icons or other elements with info status
+  --adt-info-fill: #70b6f6; // Icons or other elements with info status
+  --adt-info-bg: rgba(112, 182, 246, 0.12); // Background icons or other elements with info status
+  --adt-info-bg-hover: rgba(112, 182, 246, 0.24); // Hovered status of background icons or other elements with info status
+  --adt-info-fill-night: #70b6f6; // Icons or other elements with info status
+  --adt-info-bg-night: rgba(112, 182, 246, 0.12); // Background icons or other elements with info status
+  --adt-info-bg-night-hover: rgba(112, 182, 246, 0.24); // Hovered status of background icons or other elements with info status
 
-  --adt-neutral-fill: rgb(121, 129, 140); // Icons or other elements with neutral status
-  --adt-neutral-bg: rgba(
-    121,
-    129,
-    140,
-    0.12
-  ); // Background icons or other elements with neutral status
-  --adt-neutral-bg-hover: rgba(
-    121,
-    129,
-    140,
-    0.24
-  ); // Hovered status of background icons or other elements with neutral status
-  --adt-neutral-fill-night: rgb(149, 155, 164); // Icons or other elements with neutral status
-  --adt-neutral-bg-night: rgba(
-    149,
-    155,
-    164,
-    0.32
-  ); // Background icons or other elements with neutral status
-  --adt-neutral-bg-night-hover: rgba(
-    149,
-    155,
-    164,
-    0.48
-  ); // Hovered status of background icons or other elements with neutral status
+  --adt-neutral-fill: #79818c; // Icons or other elements with neutral status
+  --adt-neutral-bg: rgba(121, 129, 140, 0.12); // Background icons or other elements with neutral status
+  --adt-neutral-bg-hover: rgba(121, 129, 140, 0.24); // Hovered status of background icons or other elements with neutral status
+  --adt-neutral-fill-night: #959ba4; // Icons or other elements with neutral status
+  --adt-neutral-bg-night: rgba(149, 155, 164, .32); // Background icons or other elements with neutral status
+  --adt-neutral-bg-night-hover: rgba(149, 155, 164, .48); // Hovered status of background icons or other elements with neutral status
 
   /* Sizing */
   --adt-default-size: 1rem; /* 16px */
