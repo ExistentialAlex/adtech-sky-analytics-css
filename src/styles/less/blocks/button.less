@@ -1,0 +1,108 @@
+.adt-btn,
+.adt-button {
+  font-weight: 700;
+  color: var(--adt-base-01);
+  border-radius: var(--adt-border-radius-s);
+  border: none;
+  padding: var(--adt-size-ms) var(--adt-size-ml);
+  transition: all var(--adt-time-default) ease;
+
+  &[data-corners='sharp'] {
+    border-radius: none;
+  }
+
+  &[data-corners='rounded'] {
+    border-radius: var(--adt-border-radius-m);
+  }
+
+  &[data-appearance='sky'] {
+    background-image: linear-gradient(to right, var(--sky-brand-gradient));
+  }
+
+  &[data-appearance='media'] {
+    background-image: linear-gradient(to right, var(--sky-media-gradient));
+  }
+
+  &[data-appearance='flat'] {
+    color: var(--adt-primary);
+    background-color: var(--adt-base-01);
+
+    &:hover {
+      background-color: var(--adt-clear);
+    }
+  }
+
+  &[data-appearance='border'] {
+    border: var(--adt-border-s) solid var(--adt-primary);
+    color: var(--adt-primary);
+    background-color: var(--adt-base-01);
+
+    &:hover {
+      border-color: var(--adt-primary-hover);
+    }
+  }
+
+  &[data-appearance='outline'] {
+    color: var(--adt-text-01);
+    background-color: var(--adt-base-01);
+    border-width: var(--adt-size-xxxs);
+    border-color: var(--adt-base-05);
+    border-style: solid;
+
+    &:hover {
+      border-color: var(--adt-base-07);
+    }
+  }
+
+  &[data-appearance='icon'] {
+    background-color: var(--adt-base-01);
+    color: var(--adt-text-02);
+    width: var(--adt-size-xxxl);
+    height: var(--adt-size-xxxl);
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+      color: var(--adt-primary);
+    }
+  }
+
+  &[data-appearance='primary'] {
+    background-color: var(--adt-primary);
+
+    &:hover {
+      background-color: var(--adt-primary-hover);
+    }
+
+    &:active {
+      background-color: var(--adt-primary-active);
+    }
+  }
+
+  &[data-appearance='secondary'] {
+    background-color: var(--adt-secondary);
+    color: var(--adt-primary);
+
+    &:hover {
+      background-color: var(--adt-secondary-hover);
+    }
+
+    &:active {
+      background-color: var(--adt-secondary-active);
+    }
+  }
+
+  &[data-appearance='accent'] {
+    background-color: var(--adt-accent);
+
+    &:hover {
+      background-color: var(--adt-accent-hover);
+    }
+
+    &:active {
+      background-color: var(--adt-accent-active);
+    }
+  }
+}
