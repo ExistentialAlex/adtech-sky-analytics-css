@@ -1,0 +1,111 @@
+.adt-grid {
+  display: grid;
+
+  &[data-justify-content='start'] {
+    justify-content: start;
+  }
+
+  &[data-justify-content='end'] {
+    justify-content: end;
+  }
+
+  &[data-justify-content='center'] {
+    justify-content: center;
+  }
+
+  &[data-justify-content='stretch'] {
+    justify-content: stretch;
+  }
+
+  &[data-align-content='start'] {
+    align-content: start;
+  }
+
+  &[data-align-content='end'] {
+    align-content: end;
+  }
+
+  &[data-align-content='center'] {
+    align-content: center;
+  }
+
+  &[data-align-content='stretch'] {
+    align-content: stretch;
+  }
+
+  &[data-place-content='start'] {
+    place-content: start;
+  }
+
+  &[data-place-content='end'] {
+    place-content: end;
+  }
+
+  &[data-place-content='center'] {
+    place-content: center;
+  }
+
+  &[data-place-content='stretch'] {
+    place-content: stretch;
+  }
+
+  &[data-justify-items='start'] {
+    justify-items: start;
+  }
+
+  &[data-justify-items='end'] {
+    justify-items: end;
+  }
+
+  &[data-justify-items='center'] {
+    justify-items: center;
+  }
+
+  &[data-justify-items='stretch'] {
+    justify-items: stretch;
+  }
+
+  &[data-align-items='start'] {
+    align-items: start;
+  }
+
+  &[data-align-items='end'] {
+    align-items: end;
+  }
+
+  &[data-align-items='center'] {
+    align-items: center;
+  }
+
+  &[data-align-items='stretch'] {
+    align-items: stretch;
+  }
+
+  &[data-place-items='start'] {
+    place-items: start;
+  }
+
+  &[data-place-items='end'] {
+    place-items: end;
+  }
+
+  &[data-place-items='center'] {
+    place-items: center;
+  }
+
+  &[data-place-items='stretch'] {
+    place-items: stretch;
+  }
+
+  each(range(1, 10, 1), {
+    &[data-grid-cols='@{value}'] {
+        grid-template-columns: repeat(@value, 1fr);
+      }
+  });
+
+  each(range(1, 10, 1), {
+    &[data-grid-rows='@{value}'] {
+        grid-template-rows: repeat(@value, 1fr);
+      }
+  });
+}
